@@ -1,0 +1,6 @@
+
+msat:
+    before calling get_model(), you must call solve()
+
+z3:
+    you can call get_model() without solve()
