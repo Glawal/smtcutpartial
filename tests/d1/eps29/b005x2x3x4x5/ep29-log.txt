@@ -1,0 +1,519 @@
+
+----------------------------------------------------------------------
+This is SMTcut v5.3.3 by Christoph Lueders -- http://wrogn.com
+
+Python 3.7.9 (default, Aug 31 2020, 17:10:11) [MSC v.1916 64 bit (AMD64)] AMD64
+pysmt 0.9.0, gmpy2 2.1.0a5, sympy 1.7.1
+Command line: E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5 -e 29
+
+Datetime: 2022-01-20T14:01:39+01:00
+Model: E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5
+Logfile: E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\ep29-log.txt
+Flags: eps=1/29 p=1 solver=msat no-ppone no-ppsmt no-pp2x2 no-dump no-comp 
+
+Loading parameters from E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\parameters_q.txt ...
+Loading E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\vector_field_q.txt ...
+Loading E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\conservation_laws_q.txt ...
+Loading E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\slow.txt ...
+Tropicalizing (eps=1/29, p=1) ... [1][2][3][4][5][6]
+Tropicalization 0.453 sec
+
+Bag sizes: 2 7 9 9 6 4
+Possible combinations: 10^4.4 in 6 bags
+
+Minimizing (0,0)... (0,0)
+
+Running SMT solver (1)... 0.016 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[1 ph+, mem 90/81, smt 0.031, min 0.000, ins 0.000, tot 0.031]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[2 ph*, mem 92/84, smt 0.031, min 0.000, ins 0.000, tot 0.031]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,16)... (2,7), 0.000 sec
+Minimizing (2,16)... (2,8), 0.000 sec
+
+Running SMT solver (3)... 0.016 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[3 ph+, mem 90/82, smt 0.047, min 0.000, ins 0.000, tot 0.047]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[4 ph*, mem 92/84, smt 0.047, min 0.000, ins 0.000, tot 0.047]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,7), 0.000 sec
+Minimizing (2,15)... (2,8), 0.000 sec
+
+Running SMT solver (5)... 0.016 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[5 ph+, mem 90/82, smt 0.062, min 0.000, ins 0.000, tot 0.062]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[6 ph*, mem 92/84, smt 0.062, min 0.000, ins 0.000, tot 0.062]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,9), 0.000 sec
+Minimizing (2,15)... (2,10), 0.000 sec
+
+Running SMT solver (7)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.016 sec
+0.000 sec
+Inserting... 0.000 sec
+[7 ph+, mem 90/82, smt 0.062, min 0.016, ins 0.000, tot 0.078]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[7 ph*, mem 92/84, smt 0.062, min 0.016, ins 0.000, tot 0.078]
+
+Running SMT sub solver (2)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[8 ph*, mem 92/84, smt 0.062, min 0.016, ins 0.000, tot 0.078]
+
+Running SMT sub solver (3)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,9), 0.000 sec
+Minimizing (2,13)... (2,8), 0.016 sec
+
+Running SMT solver (10)... 0.000 sec
+Checking... Minimizing (1,1)... (1,1), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[9 ph+, mem 90/82, smt 0.062, min 0.031, ins 0.000, tot 0.094]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[10 ph*, mem 93/85, smt 0.062, min 0.031, ins 0.000, tot 0.094]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,11), 0.016 sec
+Minimizing (2,15)... (2,12), 0.000 sec
+
+Running SMT solver (12)... 0.000 sec
+Checking... Minimizing (1,1)... (1,1), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[11 ph+, mem 91/83, smt 0.062, min 0.047, ins 0.000, tot 0.109]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[12 ph*, mem 93/85, smt 0.062, min 0.047, ins 0.000, tot 0.109]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,10), 0.016 sec
+Minimizing (2,15)... (2,10), 0.000 sec
+
+Running SMT solver (14)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[13 ph+, mem 91/83, smt 0.062, min 0.062, ins 0.000, tot 0.125]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,6), 0.000 sec
+
+Running SMT solver (15)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.016 sec
+0.000 sec
+Inserting... 0.000 sec
+[14 ph+, mem 91/83, smt 0.062, min 0.078, ins 0.000, tot 0.141]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,9), 0.000 sec
+
+Running SMT solver (16)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[15 ph+, mem 91/83, smt 0.062, min 0.078, ins 0.000, tot 0.141]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,8), 0.000 sec
+
+Running SMT solver (17)... 0.016 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[16 ph+, mem 92/83, smt 0.078, min 0.078, ins 0.000, tot 0.156]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,9), 0.000 sec
+
+Running SMT solver (18)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[17 ph+, mem 92/83, smt 0.078, min 0.078, ins 0.000, tot 0.156]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,8), 0.000 sec
+
+Running SMT solver (19)... 0.016 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[18 ph+, mem 92/83, smt 0.094, min 0.078, ins 0.000, tot 0.172]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,10), 0.000 sec
+
+Running SMT solver (20)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[19 ph+, mem 92/83, smt 0.094, min 0.078, ins 0.000, tot 0.172]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,9), 0.000 sec
+
+Running SMT solver (21)... 0.016 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[20 ph+, mem 92/83, smt 0.109, min 0.078, ins 0.000, tot 0.188]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,8), 0.000 sec
+
+Running SMT solver (22)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[21 ph+, mem 92/83, smt 0.109, min 0.078, ins 0.000, tot 0.188]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,7), 0.016 sec
+
+Running SMT solver (23)... 0.000 sec
+Checking... Minimizing (1,1)... (1,1), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[22 ph+, mem 92/83, smt 0.109, min 0.094, ins 0.000, tot 0.203]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[23 ph*, mem 94/85, smt 0.109, min 0.094, ins 0.000, tot 0.203]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,8), 0.000 sec
+Minimizing (2,15)... (2,9), 0.016 sec
+
+Running SMT solver (25)... 0.000 sec
+Checking... Minimizing (1,1)... (1,1), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[24 ph+, mem 92/83, smt 0.109, min 0.109, ins 0.000, tot 0.219]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[25 ph*, mem 94/85, smt 0.109, min 0.109, ins 0.000, tot 0.219]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,16)... (2,8), 0.000 sec
+Minimizing (2,16)... (2,10), 0.000 sec
+
+Running SMT solver (27)... 0.016 sec
+Checking... Minimizing (1,1)... (1,1), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[26 ph+, mem 92/83, smt 0.125, min 0.109, ins 0.000, tot 0.234]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[27 ph*, mem 94/85, smt 0.125, min 0.109, ins 0.000, tot 0.234]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,17)... (2,9), 0.000 sec
+Minimizing (2,17)... (2,9), 0.016 sec
+
+Running SMT solver (29)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[28 ph+, mem 92/83, smt 0.125, min 0.125, ins 0.000, tot 0.250]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,9), 0.000 sec
+
+Running SMT solver (30)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[29 ph+, mem 92/83, smt 0.125, min 0.125, ins 0.000, tot 0.250]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,16)... (2,8), 0.016 sec
+
+Running SMT solver (31)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[30 ph+, mem 92/83, smt 0.125, min 0.141, ins 0.000, tot 0.266]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,7), 0.000 sec
+
+Running SMT solver (32)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[31 ph+, mem 92/83, smt 0.125, min 0.141, ins 0.000, tot 0.266]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,7), 0.016 sec
+
+Running SMT solver (33)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[32 ph+, mem 92/83, smt 0.125, min 0.156, ins 0.000, tot 0.281]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,7), 0.000 sec
+
+Running SMT solver (34)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[33 ph+, mem 92/83, smt 0.125, min 0.156, ins 0.000, tot 0.281]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,8), 0.016 sec
+
+Running SMT solver (35)... 0.000 sec
+Checking... Minimizing (1,3)... (1,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[34 ph+, mem 92/83, smt 0.125, min 0.172, ins 0.000, tot 0.297]
+
+Running SMT sub solver (1)... 0.000 sec
+Checking... 0.000 sec
+Inserting... 0.000 sec
+[35 ph*, mem 94/86, smt 0.125, min 0.172, ins 0.000, tot 0.297]
+
+Running SMT sub solver (2)... 0.000 sec
+No more solutions found
+Minimizing (2,16)... (2,8), 0.016 sec
+Minimizing (2,16)... (2,8), 0.000 sec
+
+Running SMT solver (37)... 0.000 sec
+Checking... Minimizing (2,4)... (2,3), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[36 ph+, mem 92/83, smt 0.125, min 0.188, ins 0.000, tot 0.312]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,8), 0.000 sec
+
+Running SMT solver (38)... 0.000 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[37 ph+, mem 92/83, smt 0.141, min 0.188, ins 0.000, tot 0.328]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,8), 0.000 sec
+
+Running SMT solver (39)... 0.000 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[38 ph+, mem 92/83, smt 0.141, min 0.188, ins 0.000, tot 0.328]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,7), 0.000 sec
+
+Running SMT solver (40)... 0.016 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[39 ph+, mem 92/83, smt 0.156, min 0.188, ins 0.000, tot 0.344]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,7), 0.000 sec
+
+Running SMT solver (41)... 0.000 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[40 ph+, mem 92/83, smt 0.156, min 0.188, ins 0.000, tot 0.344]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,17)... (2,7), 0.016 sec
+
+Running SMT solver (42)... 0.000 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[41 ph+, mem 92/83, smt 0.156, min 0.203, ins 0.000, tot 0.359]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,17)... (2,11), 0.000 sec
+
+Running SMT solver (43)... 0.000 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[42 ph+, mem 92/83, smt 0.156, min 0.203, ins 0.000, tot 0.359]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,16)... (2,10), 0.016 sec
+
+Running SMT solver (44)... 0.000 sec
+Checking... Minimizing (2,4)... (2,4), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[43 ph+, mem 92/83, smt 0.156, min 0.219, ins 0.000, tot 0.375]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,15)... (2,8), 0.000 sec
+
+Running SMT solver (45)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.016 sec
+0.000 sec
+Inserting... 0.000 sec
+[44 ph+, mem 92/83, smt 0.156, min 0.234, ins 0.000, tot 0.391]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,7), 0.000 sec
+
+Running SMT solver (46)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[45 ph+, mem 92/83, smt 0.156, min 0.234, ins 0.000, tot 0.391]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,9), 0.000 sec
+
+Running SMT solver (47)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[46 ph+, mem 92/83, smt 0.172, min 0.234, ins 0.000, tot 0.406]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,10), 0.000 sec
+
+Running SMT solver (48)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[47 ph+, mem 92/83, smt 0.172, min 0.234, ins 0.000, tot 0.406]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,10), 0.000 sec
+
+Running SMT solver (49)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[48 ph+, mem 92/83, smt 0.172, min 0.234, ins 0.000, tot 0.406]
+
+Running SMT sub solver (1)... 0.016 sec
+No more solutions found
+Minimizing (2,15)... (2,9), 0.000 sec
+
+Running SMT solver (50)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[49 ph+, mem 92/83, smt 0.188, min 0.234, ins 0.000, tot 0.422]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,14)... (2,9), 0.000 sec
+
+Running SMT solver (51)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[50 ph+, mem 92/83, smt 0.203, min 0.234, ins 0.000, tot 0.438]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,8), 0.000 sec
+
+Running SMT solver (52)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.000 sec
+0.000 sec
+Inserting... 0.000 sec
+[51 ph+, mem 92/84, smt 0.203, min 0.234, ins 0.000, tot 0.438]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,6), 0.000 sec
+
+Running SMT solver (53)... 0.000 sec
+Checking... Minimizing (2,4)... (2,2), 0.016 sec
+0.000 sec
+Inserting... 0.000 sec
+[52 ph+, mem 92/84, smt 0.203, min 0.250, ins 0.000, tot 0.453]
+
+Running SMT sub solver (1)... 0.000 sec
+No more solutions found
+Minimizing (2,13)... (2,10), 0.000 sec
+
+Running SMT solver (54)... 0.000 sec
+No more solutions found
+
+52 polyhedra, 54 rounds, smt 0.203 sec, min 0.250 sec, insert 0.000, total 0.453 sec
+Preprocessing 0.000 sec, super total 0.453 sec
+
+Saving solution to E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\ep29-solutions.txt
+
+Saving associated subsystems to E:\Users\Glawal\Dropbox\for_aurelien\withoutx6\testlinks\d1\eps11\b005x2x3x4x5\ep29-subsystems.txt
